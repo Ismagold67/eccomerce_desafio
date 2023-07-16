@@ -118,7 +118,7 @@ order by pa.id_payment;
 -- relaciona nome completo de clientes da tabela clients, com o id_payments
 -- e suas respectivas formas de pagamento, sincronizado apenas com clientes 
 -- que realizaram algum pedido, mostra a quantidade de produtos pedidos, junto com
--- o valor individual, e a culumn final multiplicando pela quantidade de pedidos em reais
+-- o valor individual, e a column final multiplicando pela quantidade de pedidos em reais
 
 select concat(c.Fname, ' ', c.Lname) as Client_name, 
 concat('00', pa.id_payment) as id_pay, p.Pname as Product, 
